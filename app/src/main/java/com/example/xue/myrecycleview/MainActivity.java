@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<news> newsArrayList = new ArrayList<>();
         //asdasd
-        //第二次修改
-        //第三次修改
         news news ;
         //数据准备
         for (int i = 0; i<= 99 ;i++ ){
