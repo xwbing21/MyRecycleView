@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         //asdasd
         news news ;
         //数据准备
-        //我爱你
         for (int i = 0; i<= 99 ;i++ ){
             news = new news();
             news.setNewsTitle("中国2020年基本达到发达国家水准"+i);
