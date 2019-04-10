@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recycler_view = (RecyclerView)findViewById(R.id.recycler_view);
         //设置布局
         recycler_view.setLayoutManager(new LinearLayoutManager(this));
-        recycler_view.setHasFixedSize(true);
+        /*recycler_view.setHasFixedSize(true);*/
 
         ArrayList<news> newsArrayList = new ArrayList<>();
         //asdasd

@@ -1,0 +1,12 @@
+diff --git a/app/src/main/java/com/example/xue/myrecycleview/MainActivity.java b/app/src/main/java/com/example/xue/myrecycleview/MainActivity.java
+index 0f95263..4a28cb6 100644
+--- a/app/src/main/java/com/example/xue/myrecycleview/MainActivity.java
++++ b/app/src/main/java/com/example/xue/myrecycleview/MainActivity.java
+@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
+         //asdasd
+         news news ;
+         //数据准备
++        //我爱你
+         for (int i = 0; i<= 99 ;i++ ){
+             news = new news();
+             news.setNewsTitle("中国2020年基本达到发达国家水准"+i);

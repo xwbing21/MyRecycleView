@@ -18,7 +18,7 @@
         android:text="人民网"
         android:textSize="15sp"
         android:textColor="#840d0d"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tv_title"
         android:layout_alignParentLeft="true"
         />
     <TextView
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:text="2020-1-1"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tv_title"
         android:textColor="#131313"
         />
 </RelativeLayout>

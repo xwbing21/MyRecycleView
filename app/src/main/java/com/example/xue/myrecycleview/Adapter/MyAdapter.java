@@ -101,11 +101,10 @@ public class MyAdapter extends RecyclerView.Adapter {
     public int getItemViewType(int position) {
         if (HEADHOLDER == position) {
             return 0;
-       /* } else if (arrayList.size()>=position) {*/
-        } else if (arrayList.size()+2 == position) {
-            return -1;
-        }else {
+        } else if (arrayList.size()>=position) {
             return 1;
+        }else {
+            return -1;
         }
     }
 }
