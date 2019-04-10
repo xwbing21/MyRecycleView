@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         recycler_view.setHasFixedSize(true);
 
         ArrayList<news> newsArrayList = new ArrayList<>();
+        //asdasd
         news news ;
         //数据准备
         for (int i = 0; i<= 99 ;i++ ){
