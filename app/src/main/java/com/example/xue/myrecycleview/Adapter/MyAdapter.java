@@ -23,6 +23,7 @@ public class MyAdapter extends RecyclerView.Adapter {
     public MyAdapter(ArrayList<news> arrayList){
         this.arrayList=arrayList;
     }
+    //xiugai
 
 
     @Override
