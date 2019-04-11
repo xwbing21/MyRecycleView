@@ -26,17 +26,17 @@ public class MyAdapter extends RecyclerView.Adapter {
 
 
     @Override
-    public RecyclerView.ViewHolder onCreateViewHolder( ViewGroup parent, int viewType) {
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == HEADHOLDER) {
-            View headView = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_nhead,null);
+            View headView = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_nhead, null);
             MyHeadHolder myHeadHolder = new MyHeadHolder(headView);
             return myHeadHolder;
-        } else if (viewType == NEWSHOLDER){
-            View newsView = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_news,null);
+        } else if (viewType == NEWSHOLDER) {
+            View newsView = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_news, null);
             MyNewsHolder myNewsHolder = new MyNewsHolder(newsView);
-            return  myNewsHolder;
-        }else {
-            View endView = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_end,null);
+            return myNewsHolder;
+        } else {
+            View endView = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_end, null);
             MyEndHolder myEndHolder = new MyEndHolder(endView);
             return myEndHolder;
         }
